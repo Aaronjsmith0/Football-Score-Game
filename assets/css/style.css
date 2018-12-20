@@ -1,0 +1,44 @@
+.helmets {
+    height: 100px;
+    width: 100px;
+}
+
+.bg {
+    width: 100%;
+    height: 660px;
+    position: relative;
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.header {
+    color: red;
+    font-size: 50px;
+    background-color: red;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.secfont {
+    align-content: center;
+}
+
+.secLogo1 {
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-left: 300px;
+    padding-top: 10px;
+}
+
+.secLogo2 {
+    width: 40px;
+    height: 40px;
+    float: right;
+    padding-right: 300px;
+    padding-top: 10px;
+}
+

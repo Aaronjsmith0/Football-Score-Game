@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Football Score Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="assets/images/seclogo.jpg" class="secLogo1"><img src="assets/images/espnfont.png" class="secfont"><img
+            src="assets/images/seclogo.jpg" class="secLogo2">
+    </div>
+    <img src="assets/images/background.jpg" class="bg">
+    <img src="assets/images/Inkedscoreboard_LI.jpg">
+    <div class="instruction-part">
+        <p>You will be given a random score at the start of the game.</p>
+        <p>There are four football helmets below. By clicking on a football helmet you will add a specific amount
+            of
+            total points to
+            your scrore.</p>
+        <p>You win the game by matching your total score to the random score, you lose the game if your total goes
+            above that random score.</p>
+        <p>The value of each football helmet is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the value of each football helmet.</p>
+    </div>
+    <div class="numberToMatch">
+        <h2>Random Score:
+            <span id="randomScore"></span>
+        </h2>
+    </div>
+    <div class="winsAndLosses">
+        <h2>Wins:
+            <span id="numberWins"></span>
+            </br>
+            Losses:
+            <span id="numberLosses"></span>
+        </h2>
+    </div>
+    <div class="gamePieces">
+        <img src="assets/images/olemiss.jpg" class="helmets" id="helmetOne">
+        <img src="assets/images/lsu.jpg" class="helmets" id="helmetTwo">
+        <img src="assets/images/msstate.jpg" class="helmets" id="helmetThree">
+        <img src="assets/images/alabama.jpg" class="helmets" id="helmetFour">
+    </div>
+    <div class="userScore">
+        <h2>Your total score is:
+            <span id="yourScore"></span>
+        </h2>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
