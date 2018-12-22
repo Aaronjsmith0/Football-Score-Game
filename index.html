@@ -6,6 +6,7 @@
     <title>Football Score Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/seclogo.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -13,42 +14,46 @@
         <img src="assets/images/seclogo.jpg" class="secLogo1"><img src="assets/images/espnfont.png" class="secfont"><img
             src="assets/images/seclogo.jpg" class="secLogo2">
     </div>
-    <img src="assets/images/background.jpg" class="bg">
-    <img src="assets/images/Inkedscoreboard_LI.jpg">
+    <div>
+        <img src="assets/images/background.jpg" class="bg">
+    </div>
+    <div>
+        <img src="assets/images/Inkedscoreboard_LI.jpg" class="scoreBoard">
+    </div>
     <div class="instruction-part">
-        <p>You will be given a random score at the start of the game.</p>
+        <p>You will be given a random Guest score at the start of the game.</p>
+        <br>
         <p>There are four football helmets below. By clicking on a football helmet you will add a specific amount
             of
             total points to
-            your scrore.</p>
-        <p>You win the game by matching your total score to the random score, you lose the game if your total goes
-            above that random score.</p>
+            the home scrore.</p>
+        <br>
+        <p>You win the game by matching the home score to the guest score, you lose the game if your total goes
+            above that guest score.</p>
+        <br>
         <p>The value of each football helmet is hidden from you until you click on it.</p>
+        <br>
         <p>Each time when the game starts, the game will change the value of each football helmet.</p>
     </div>
     <div class="numberToMatch">
-        <h2>Random Score:
-            <span id="randomScore"></span>
-        </h2>
+        <span id="randomScore"></span>
     </div>
-    <div class="winsAndLosses">
-        <h2>Wins:
-            <span id="numberWins"></span>
-            </br>
-            Losses:
-            <span id="numberLosses"></span>
-        </h2>
+    <div class="wins">
+        <h2>Wins:</h2>
+        <span id="numberWins"></span>
+    </div>
+    <div class="losses">
+        <h2>Losses:</h2>
+        <span id="numberLosses"></span>
     </div>
     <div class="gamePieces">
-        <img src="assets/images/olemiss.jpg" class="helmets" id="helmetOne">
-        <img src="assets/images/lsu.jpg" class="helmets" id="helmetTwo">
-        <img src="assets/images/msstate.jpg" class="helmets" id="helmetThree">
-        <img src="assets/images/alabama.jpg" class="helmets" id="helmetFour">
+        <img src="assets/images/olemiss.jpg" style="padding: 5px 10px 5px 10px;" class="helmets" id="helmetOne">
+        <img src="assets/images/lsu.jpg" style="padding: 5px 10px 5px 10px;" class="helmets" id="helmetTwo">
+        <img src="assets/images/msstate.jpg" style="padding: 5px 10px 5px 10px;" class="helmets" id="helmetThree">
+        <img src="assets/images/alabama.jpg" style="padding: 5px 10px 5px 10px;" class="helmets" id="helmetFour">
     </div>
     <div class="userScore">
-        <h2>Your total score is:
-            <span id="yourScore"></span>
-        </h2>
+        <span id="yourScore"></span>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
