@@ -136,3 +136,84 @@
     z-index: 2;
     left: 31%;
 }
+
+@media screen and (max-width: 980px) {
+    .secLogo1 {
+        padding-left: 20px;
+    }
+    .secLogo2 {
+        padding-right: 20px;
+    }
+    .scoreBoard {
+        left: 33%;
+    }
+    .instruction-part {
+        left: 20%;
+    }
+    .gamePieces {
+        left: 20%;
+    }
+    .numberToMatch {
+        left: 60.5%;
+    }
+    .userScore {
+        left: 35.4%;
+    }
+    .wins {
+        left: 43%;
+    }
+    .losses {
+        left: 53%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .secfont {
+        width: 600px;
+    }
+    .scoreBoard {
+        left: 26%;
+    }
+    .instruction-part {
+        left: 10%;
+    }
+    .gamePieces {
+        left: 10%;
+    }
+    .numberToMatch {
+        left: 61.3%;
+    }
+    .userScore {
+        left: 29%;
+    }
+    .wins {
+        left: 39%;
+    }
+    .losses {
+        left: 51.5%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .secfont {
+        width: 450px;
+    }
+    .scoreBoard {
+        left: 21%;
+    }
+    .instruction-part {
+        left: 0%;
+    }
+    .gamePieces {
+        left: 0%;
+    }
+    .numberToMatch {
+        left: 63.3%;
+    }
+    .userScore {
+        left: 24.6%;
+    }
+    .wins {
+        left: 36.7%;
+    }
+}
