@@ -1,16 +1,13 @@
 $(document).ready(function () {
     var randomScore = Math.floor(Math.random() * 101 + 19)
     $('#randomScore').text(randomScore);
-
     var helmet1 = Math.floor(Math.random() * 11 + 1)
     var helmet2 = Math.floor(Math.random() * 11 + 1)
     var helmet3 = Math.floor(Math.random() * 11 + 1)
     var helmet4 = Math.floor(Math.random() * 11 + 1)
-
     var userTotal = 0;
     var wins = 0;
     var losses = 0;
-
     $('#numberWins').text(wins);
     $('#numberLosses').text(losses);
 
