@@ -1,5 +1,6 @@
 # Football Score Game
----------------------------------
+![football-game](assets/images/mainpage.PNG)
+## Description
 * There will be four helmets displayed as buttons on the page.
 
 * The player will be shown a random number at the start of the game.
@@ -15,3 +16,7 @@
 * The player loses if their score goes above the random number.
 
 * The game restarts whenever the player wins or loses.
+## Technologies Used
+HTML, CSS, JavaScript, jQuery
+## Created By
+Aaron Smith
